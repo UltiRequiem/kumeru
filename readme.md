@@ -11,6 +11,8 @@ There is still a lot to do, but you can use it already! Check
 
 Auto generated documentation using [TypeDoc](https://typedoc.org) 💕
 
+For examples you can check [`examples/`](./examples) 📂
+
 https://kumeru.ultirequiem.com
 
 All the codebase has lot of comments, pull request adding even more useful ones
