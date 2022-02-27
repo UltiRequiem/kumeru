@@ -1,8 +1,8 @@
 # Kumeru
 
-A low-level HyperScript-like Frontend Library 🚀
+A fully-typed, low-level, and HyperScript-like Frontend Library 🚀
 
-```
+```javascript
 import { render, createElement, wrapElements } from "kumeru";
 
 const app = wrapElements(
