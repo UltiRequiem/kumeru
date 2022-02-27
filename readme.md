@@ -1,6 +1,22 @@
 # Kumeru
 
-A low-level HyperScript-like Frontend Library
+A low-level HyperScript-like Frontend Library 🚀
+
+```
+import { render, createElement, wrapElements } from "kumeru";
+
+const app = wrapElements(
+  createElement("h1", "Hello Vite!"),
+  createElement("a", "Documentation", {
+    attributes: {
+      href: "https://vitejs.dev/guide/features.html",
+      target: "_blank",
+    },
+  })
+);
+
+render("app", app);
+```
 
 There is still a lot to do, but you can use it already! Check
 [Pages using Kumeru on Production](#pages-using-kumeru-on-production)!
