@@ -9,7 +9,7 @@ const app = wrapElements(
       href: "https://vitejs.dev/guide/features.html",
       target: "_blank",
     },
-  })
+  }),
 );
 
 render("app", app);

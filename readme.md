@@ -3,7 +3,7 @@
 A fully-typed, low-level, and HyperScript-like Frontend Library 🚀
 
 ```javascript
-import { render, createElement, wrapElements } from "kumeru";
+import { createElement, render, wrapElements } from "kumeru";
 
 const app = wrapElements(
   createElement("h1", "Hello Vite!"),
@@ -12,7 +12,7 @@ const app = wrapElements(
       href: "https://vitejs.dev/guide/features.html",
       target: "_blank",
     },
-  })
+  }),
 );
 
 render("app", app);
@@ -30,9 +30,6 @@ Auto generated documentation using [TypeDoc](https://typedoc.org) 💕
 For examples you can check [`examples/`](./examples) 📂
 
 https://kumeru.ultirequiem.com
-
-All the codebase has lot of comments, pull request adding even more useful ones
-are welcome!
 
 ## Pages Using Kumeru on Production
 
