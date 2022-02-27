@@ -1,5 +1,17 @@
-# WIP
+# Kumeru
 
-Mostly taken from 👇
+A low-level HyperScript-like Frontend Library
 
-https://github.com/UltiRequiem/sergif/tree/de9a3c065dd7bda32d9632b5ce0a887cb0f9a30a/src/utils/browser
+## Docs
+
+Still a WIP, but check 👇
+
+https://kumeru.ultirequiem.com
+
+## Pages Using Kumeru on Production
+
+- [Sergif](https://sergif.ultirequiem.com/) - [Source](https://github.com/UltiRequiem/sergif)
+
+## Licence
+
+Kumeru is licensed under the MIT Licence.
