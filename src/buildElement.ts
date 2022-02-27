@@ -1,5 +1,22 @@
 import type { FindOptions } from "./types";
 
+/**
+Utility to create an element.
+
+@param tag - Which HTML element to use?
+@param text - Text to put inside the element.
+@param options - Options to add interactivity and styles to the element.
+@returns An element ready to use.
+
+@example
+```
+import { createElement} from "kumeru"
+
+export const AppTitle = createElement("h1", "Sergif", {
+  classes: "underline hover:underline decoration-pink-500 text-7xl my-7",
+});
+```
+*/
 export function createElement<Tag extends keyof HTMLElementTagNameMap>(
   tag: Tag,
   text?: string | FindOptions<Tag>,
