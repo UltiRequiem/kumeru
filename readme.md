@@ -12,7 +12,7 @@ const app = wrapElements(
       href: "https://vitejs.dev/guide/features.html",
       target: "_blank",
     },
-  }),
+  })
 );
 
 render("app", app);
@@ -20,6 +20,19 @@ render("app", app);
 
 There is still a lot to do, but you can use it already! Check
 [Pages using Kumeru on Production](#pages-using-kumeru-on-production)!
+
+## Installation ∙ [![npm](https://img.shields.io/npm/v/kumeru?color=blue&style=flat-square)](https://www.npmjs.com/package/kumeru)
+
+```console
+# npm
+npm install reacord react discord.js
+
+# yarn
+yarn add reacord react discord.js
+
+# pnpm
+pnpm add reacord react discord.js
+```
 
 ## Docs
 

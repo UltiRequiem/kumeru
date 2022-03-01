@@ -1,13 +1,19 @@
 {
   "name": "kumeru",
   "version": "0.1.0",
+  "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>",
+  "description": "Low-level HyperScript-like Frontend Library",
+  "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ultirequiem/kumeru.git"
+  },
+  "homepage": "https://kumeru.ultirequiem.com/",
   "files": [
     "lib/**/*"
   ],
-  "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>",
-  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -16,6 +22,9 @@
     "fmt": "prettier --write 'src/**/*.ts'",
     "lint": "eslint 'src/**/*.ts' && prettier --check 'src/**/*.ts'"
   },
+  "keywords": [
+    "frontend"
+  ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "@typescript-eslint/parser": "^5.12.1",
