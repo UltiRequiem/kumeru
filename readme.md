@@ -36,17 +36,15 @@ pnpm add kumeru
 
 ## Docs
 
-Auto generated documentation using [TypeDoc](https://typedoc.org) 💕
+- For examples you can check [`examples/`](./examples) 📂
 
-For examples you can check [`examples/`](./examples) 📂
-
-https://kumeru.ultirequiem.com
+- API Docs ▶ https://kumeru.js.org
 
 ## Pages Using Kumeru on Production
 
 Are you using Kumeru on your page? Make a pull request adding your page here!
 
-- [Sergif](https://sergif.ultirequiem.com/) - (Kumeru + Tailwind CSS + Netlify Functions)
+- [Sergif](https://sergif.ultirequiem.com) - (Kumeru + Tailwind CSS + Netlify Functions)
 
 ## Licence
 
