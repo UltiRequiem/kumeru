@@ -36,8 +36,6 @@ pnpm add kumeru
 
 ## Docs
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1690f536-142e-41ff-8520-2c34149bc7a3/deploy-status)](https://app.netlify.com/sites/kumeru/deploys)
-
 Auto generated documentation using [TypeDoc](https://typedoc.org) 💕
 
 For examples you can check [`examples/`](./examples) 📂
@@ -46,10 +44,10 @@ https://kumeru.ultirequiem.com
 
 ## Pages Using Kumeru on Production
 
-- [Sergif](https://sergif.ultirequiem.com/) -
-  [Source](https://github.com/UltiRequiem/sergif) - Accompaniment: Tailwind CSS
-  and Netlify Functions
+Are you using Kumeru on your page? Make a pull request adding your page here!
+
+- [Sergif](https://sergif.ultirequiem.com/) - (Kumeru + Tailwind CSS + Netlify Functions)
 
 ## Licence
 
-Kumeru is licensed under the MIT Licence.
+Licensed under the MIT Licence.
