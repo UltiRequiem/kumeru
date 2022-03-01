@@ -25,13 +25,13 @@ There is still a lot to do, but you can use it already! Check
 
 ```console
 # npm
-npm install reacord react discord.js
+npm install kumery
 
 # yarn
-yarn add reacord react discord.js
+yarn add kumeru
 
 # pnpm
-pnpm add reacord react discord.js
+pnpm add kumeru
 ```
 
 ## Docs
