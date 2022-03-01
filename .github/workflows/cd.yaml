@@ -14,6 +14,7 @@ jobs:
         run: |
           npm install
           npm run build:docs
+          echo kumeru.js.org >> CNAME
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
