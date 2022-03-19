@@ -1,4 +1,5 @@
-import { addToElement, KumeruError } from "./mod.ts";
+import { KumeruError } from "./errors.ts";
+import { addToElement } from "./addToElement.ts";
 
 /**
 The entry point for the Kumeru library.

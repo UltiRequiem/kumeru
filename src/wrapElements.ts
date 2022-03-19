@@ -1,10 +1,11 @@
-import { addToElement, createElement } from "./mod.ts";
+import { addToElement } from "./addToElement.ts";
+import { createElement } from "./createElement.ts";
 
 /**
 Utility to wrap elements on a div with custom classes.
 
 @param classes - The classes to add to the div.
-@param children - The children to add to the div.
+@param elements - The children to add to the div.
 
 @returns The elements wrapped on a div.
 
