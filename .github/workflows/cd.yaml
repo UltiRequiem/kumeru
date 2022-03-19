@@ -12,12 +12,11 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          npm install
-          npm run build:docs
-          echo kumeru.js.org >> docs/CNAME
+          curl https://redirector.deno.dev/https://doc.deno.land/https://deno.land/x/ranmess/mod.ts -o output/index.html
+          echo kumeru.js.org >> output/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           branch: gh-pages
-          folder: docs
+          folder: output

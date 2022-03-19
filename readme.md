@@ -23,15 +23,9 @@ There is still a lot to do, but you can use it already! Check
 
 ## Installation ∙ [![npm](https://img.shields.io/npm/v/kumeru?color=blue&style=flat-square)](https://www.npmjs.com/package/kumeru)
 
-```console
+```sh
 # npm
-npm install kumery
-
-# yarn
-yarn add kumeru
-
-# pnpm
-pnpm add kumeru
+npm install kumeru
 ```
 
 ## Docs

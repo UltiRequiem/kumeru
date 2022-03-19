@@ -1,4 +1,4 @@
-import { addToElement, createElement } from ".";
+import { addToElement, createElement } from "./mod.ts";
 
 /**
 Utility to wrap elements on a div with custom classes.

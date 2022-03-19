@@ -1,4 +1,4 @@
-import type { FindOptions } from "./types";
+import type { FindOptions } from "./types.ts";
 
 /**
 Utility to create an element.
