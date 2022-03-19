@@ -12,6 +12,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
+          mkdir output/
           curl https://redirector.deno.dev/https://doc.deno.land/https://deno.land/x/ranmess/mod.ts -o output/index.html
           echo kumeru.js.org >> output/
 
