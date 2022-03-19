@@ -16,7 +16,7 @@ const app = wrapElements(
       href: "https://kumeru.js.org",
       target: "_blank",
     },
-  })
+  }),
 );
 
 render(document.getElementById("root"), app);

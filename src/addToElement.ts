@@ -19,7 +19,7 @@
  */
 export function addToElement<T extends HTMLElement>(
   parentElement: T,
-  elements: HTMLElement[]
+  elements: HTMLElement[],
 ) {
   elements.forEach((element) => parentElement.append(element));
 

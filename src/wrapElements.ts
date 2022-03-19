@@ -23,12 +23,12 @@ export function wrapElements(
   classes?: string | HTMLElement,
   ...elements: HTMLElement[]
 ) {
-  const firstIsElement =
-    classes instanceof HTMLElement && !(typeof classes === "string");
+  const firstIsElement = classes instanceof HTMLElement &&
+    !(typeof classes === "string");
 
   return addToElement(
     createElement("div", { classes: firstIsElement ? undefined : classes }),
-    firstIsElement ? [classes, ...elements] : elements
+    firstIsElement ? [classes, ...elements] : elements,
   );
 }
 
