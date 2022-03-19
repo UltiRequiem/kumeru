@@ -12,7 +12,7 @@ const app = wrapElements(
       href: "https://vitejs.dev/guide/features.html",
       target: "_blank",
     },
-  })
+  }),
 );
 
 render("app", app);
@@ -38,7 +38,8 @@ npm install kumeru
 
 Are you using Kumeru on your page? Make a pull request adding your page here!
 
-- [Sergif](https://sergif.ultirequiem.com) - (Kumeru + Tailwind CSS + Netlify Functions)
+- [Sergif](https://sergif.ultirequiem.com) - (Kumeru + Tailwind CSS + Netlify
+  Functions)
 
 ## Licence
 

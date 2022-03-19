@@ -20,7 +20,7 @@ export const AppTitle = createElement("h1", "Sergif", {
 export function createElement<Tag extends keyof HTMLElementTagNameMap>(
   tag: Tag,
   text?: string | FindOptions<Tag>,
-  options?: FindOptions<Tag>
+  options?: FindOptions<Tag>,
 ): HTMLElementTagNameMap[Tag] {
   const element = document.createElement(tag);
 
@@ -35,8 +35,9 @@ export function createElement<Tag extends keyof HTMLElementTagNameMap>(
     const { classes, attributes, functions } = options;
 
     if (classes) {
-      const classesToAdd =
-        typeof classes === "string" ? classes.split(" ") : classes;
+      const classesToAdd = typeof classes === "string"
+        ? classes.split(" ")
+        : classes;
 
       element.classList.add(...classesToAdd);
     }
