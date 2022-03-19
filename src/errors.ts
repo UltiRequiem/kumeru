@@ -1,8 +1,7 @@
 /**
-A custom Error Wrapper for the Kumeru library.
-
-@param message - The message of the Error.
-*/
+ * A custom Error Wrapper for Kumeru.
+ * @param message - The error message.
+ */
 export class KumeruError extends Error {
   constructor(message: string) {
     super(message);

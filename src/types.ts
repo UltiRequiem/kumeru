@@ -1,5 +1,5 @@
 /**
- * Available Options for a Kumeru Element
+ * Available Options for a Kumeru Element.
  */
 export interface EleOptions<E extends HTMLElement> {
   classes?: string[] | string;
