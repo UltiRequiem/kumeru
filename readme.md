@@ -1,32 +1,29 @@
 # Kumeru
 
-A fully-typed, low-level, and HyperScript-like Frontend Library 🚀
+A low-level and HyperScript-like Frontend Library 🚀
 
-```javascript
-import { createElement, render, wrapElements } from "kumeru";
+```typescript
+import {
+  createElement,
+  render,
+  wrapElements,
+} from "https://deno.land/x/kumeru/mod.ts";
 
 const app = wrapElements(
-  createElement("h1", "Hello Vite!"),
+  createElement("h1", "Kumeru"),
   createElement("a", "Documentation", {
     attributes: {
-      href: "https://vitejs.dev/guide/features.html",
+      href: "https://kumeru.js.org",
       target: "_blank",
     },
-  }),
+  })
 );
 
-render("app", app);
+render(document.getElementById("root"), app);
 ```
 
 There is still a lot to do, but you can use it already! Check
 [Pages using Kumeru on Production](#pages-using-kumeru-on-production)!
-
-## Installation ∙ [![npm](https://img.shields.io/npm/v/kumeru?color=blue&style=flat-square)](https://www.npmjs.com/package/kumeru)
-
-```sh
-# npm
-npm install kumeru
-```
 
 ## Docs
 
