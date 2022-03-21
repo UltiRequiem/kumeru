@@ -1,6 +1,6 @@
 # Kumeru
 
-[![CI](https://github.com/ultirequiem/kumeru/workflows/ci/badge.svg)](https://github.com/ultirequiem/kumeru)
+[![CI](https://github.com/UltiRequiem/kumeru/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/kumeru/actions/workflows/ci.yaml)
 [![codecov](https://codecov.io/gh/ultirequiem/kumeru/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/kumeru)
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/kumeru/mod.ts)
 
