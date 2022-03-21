@@ -12,4 +12,4 @@ const app = wrapElements(
   }),
 );
 
-render("app", app);
+render(document.getElementById("app"), app);

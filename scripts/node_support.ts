@@ -10,9 +10,9 @@ const publisher = {
 const packageConfig = {
   name: "kumeru",
   repoName: "kumeru",
-  version: "0.1.1",
+  version: "0.1.2",
   description: "Low-level HyperScript-like Frontend Library",
-  keywords: ["frontend"],
+  keywords: ["frontend", "framework", "ui"],
   license: "MIT",
   homepage: "https://kumeru.js.org",
 };
@@ -44,8 +44,7 @@ await build({
     repository: `github:${publisher.username}/${packageConfig.repoName}`,
 
     bugs: {
-      url:
-        `https://github.com/${publisher.username}/${packageConfig.repoName}/issues`,
+      url: `https://github.com/${publisher.username}/${packageConfig.repoName}/issues`,
       email: publisher.email,
     },
 

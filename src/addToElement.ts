@@ -8,9 +8,7 @@
  *
  * @example
  *
- * ```typescript
- * import { addToElement, createElement } from "kumeru";
- *
+ * ```javascript
  * const Footer = addToElement(
  *   createElement("footer", "Powered by ", { classes: "text-blue-500" }),
  *   [createElement("a", "Kumeru", {classes: "text-sky-900"})]

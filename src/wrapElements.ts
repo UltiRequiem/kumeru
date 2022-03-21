@@ -8,7 +8,7 @@ import { createElement } from "./createElement.ts";
  * @param elements - The children to add to the div.
  *
  * @example
- * ```ts
+ * ```javascript
  * const App = wrapElements(
  *  "flex flex-col items-center text-center",
  *  AppTitle,

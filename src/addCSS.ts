@@ -7,9 +7,7 @@
  * @returns  The same element with the styles applied.
  *
  * @example
- * ```typescript
- * import { addCSS } from "kumeru"
- *
+ * ```javascript
  * addCSS(app, {
  *   display: "flex",
  *   flexDirection: "column",

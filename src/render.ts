@@ -8,11 +8,7 @@ import { addToElement } from "./addToElement.ts";
  * @param  app - The app to mount on id
  *
  * @example
- * ```typescript
- * import { render } from "kumeru";
- *
- * import App from "./app";
- *
+ * ```javascript
  * render(document.getElementById("root"), App);
  * ```
  */
