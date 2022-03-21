@@ -44,7 +44,8 @@ await build({
     repository: `github:${publisher.username}/${packageConfig.repoName}`,
 
     bugs: {
-      url: `https://github.com/${publisher.username}/${packageConfig.repoName}/issues`,
+      url:
+        `https://github.com/${publisher.username}/${packageConfig.repoName}/issues`,
       email: publisher.email,
     },
 
